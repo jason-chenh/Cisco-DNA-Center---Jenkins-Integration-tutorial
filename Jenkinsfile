@@ -6,6 +6,7 @@ pipeline {
         timeout(time: 20, unit: 'MINUTES') // Set a timeout on the total execution time of the job
     }
     agent {
+        label 'docker'
         docker { 
             image 'python:latest' 
         }
