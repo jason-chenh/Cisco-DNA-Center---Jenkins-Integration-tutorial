@@ -11,7 +11,7 @@
       required: True
       order: 2
   devices:
-    - name: sw1
+    - name: HQ_FE2.dnaclab.com
       params:
         interface_name: Loopback 200
         ip_address: 172.30.200.1
@@ -23,7 +23,7 @@
   name: Template without params
   file: template.j2
   devices:
-    - name: sw2
+    - name: HQ_FE1.dnaclab.com
   product_family:
     - Routers
     - Switches and Hubs
